@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Pesos pesados
+runs/**/weights/*.pt
+
+# Arquivos temporários de treino
+runs/**/train_batch*.jpg
+runs/**/val_batch*.jpg
