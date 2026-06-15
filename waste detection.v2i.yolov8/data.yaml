@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['metal', 'cardboard', 'glass', 'paper', 'plastic']
+
+roboflow:
+  workspace: xavi-ojx7l
+  project: waste-detection-jlylt
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/xavi-ojx7l/waste-detection-jlylt/dataset/2
