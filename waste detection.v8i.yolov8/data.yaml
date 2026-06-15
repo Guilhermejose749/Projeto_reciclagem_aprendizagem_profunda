@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['metal', 'cardboard', 'glass', 'paper', 'plastic']
+
+roboflow:
+  workspace: sb-cyjyi
+  project: waste-detection-nabn2
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sb-cyjyi/waste-detection-nabn2/dataset/8
