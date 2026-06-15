@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['metal', 'cardboard', 'glass', 'paper', 'plastic']
+
+roboflow:
+  workspace: yoloissegypt2025
+  project: recyclable-material-sorting-ver2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yoloissegypt2025/recyclable-material-sorting-ver2/dataset/1
