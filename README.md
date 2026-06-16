@@ -7,7 +7,7 @@ O modelo base foi treinado utilizando uma união de três datasets do Roboflow (
 
 Surgiu a dúvida sobre a eficácia desse modelo em um ambiente real. Para validar essa hipótese, utilizamos o dataset **zerowaste-f-final** (baseado no dataset *ZeroWaste* da Boston University e referenciado em um estudo da USP), que contém imagens catalogadas de uma esteira de reciclagem.
 
-## ⚙️ Pré-processamento e Preparação de Dados
+## Pré-processamento e Preparação de Dados
 
 1. **Conversão e Formatação:** Os dados foram convertidos para o formato Roboflow/Ultralytics e todas as imagens padronizadas para `.jpg`.
 2. **Mapeamento de Classes:** O dataset da esteira possuía 4 classes, que foram mapeadas para se adequarem às nossas classes alvo. Plásticos rígidos e maleáveis foram unificados.
@@ -42,7 +42,7 @@ Surgiu a dúvida sobre a eficácia desse modelo em um ambiente real. Para valida
 
 ---
 
-## 🎯 Conclusão
+## Conclusão
 
 Os experimentos demonstram que, embora o modelo YOLOv10 Small possa ser aplicado no mundo real, **treinamentos com imagens de fundo branco não generalizam bem para ambientes complexos**. 
 
