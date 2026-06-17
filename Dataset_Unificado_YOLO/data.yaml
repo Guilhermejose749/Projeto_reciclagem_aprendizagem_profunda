@@ -2,9 +2,4 @@ train: train/images
 val: valid/images
 test: test/images
 nc: 5
-names:
-- metal
-- cardboard
-- glass
-- paper
-- plastic
+names: ['metal', 'cardboard', 'glass', 'paper', 'plastic']
